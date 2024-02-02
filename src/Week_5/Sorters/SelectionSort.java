@@ -1,4 +1,4 @@
-package Sorters;
+package Week_5.Sorters;
 
 public class SelectionSort {
     public static void sort(int[] arr){

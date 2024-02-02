@@ -1,4 +1,4 @@
-package Shuffles;
+package Week_5.Shuffles;
 
 import java.util.ArrayList;
 import java.util.Arrays;

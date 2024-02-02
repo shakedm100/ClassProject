@@ -1,12 +1,6 @@
+import Week_5.FibonnaciSequence.Fibonnaci;
 import ProjectHelpers.Console;
-import Searchers.BinaryTree;
-import Shuffles.BoazShuffle;
-import Shuffles.FYShuffle;
-import Sorters.BubbleSort;
-import Sorters.InsertionSort;
-import Sorters.SelectionSort;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
@@ -16,14 +10,9 @@ public class Main {
     {
         Integer[] arr = {9, 100, 6, 86445, 46436,684486,4587,83,547,437,2434264,3};
 
-        int count = 0;
-        for (int i = 0; i < 999999; i++)
-        {
-            FYShuffle.FYShuffle(arr);
-            if(arr[0] == 9)
-                count++;
-        }
+        int n = 200;
+        long[] fibo = Fibonnaci.fibonnaciSequence(n);
 
-        Console.printLine("Number 9 in index 0: "+count);
+        Console.printLine(Arrays.toString(fibo));
     }
 }

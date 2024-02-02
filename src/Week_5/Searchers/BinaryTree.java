@@ -1,6 +1,4 @@
-package Searchers;
-
-import java.util.Arrays;
+package Week_5.Searchers;
 
 public class BinaryTree {
 

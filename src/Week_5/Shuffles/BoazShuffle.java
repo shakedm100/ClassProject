@@ -1,4 +1,4 @@
-package Shuffles;
+package Week_5.Shuffles;
 
 public class BoazShuffle {
 
